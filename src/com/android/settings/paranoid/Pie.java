@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 ParanoidAndroid Project
+ * Copyright (C) 2014-2015 ParanoidAndroid Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.liquid;
+package com.android.settings.paranoid;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;
@@ -33,7 +33,6 @@ import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.liquid.util.Helpers;
 
 public class Pie extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
